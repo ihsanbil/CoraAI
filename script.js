@@ -8,7 +8,7 @@ let userMessage = null;
 let isResponseGenerating = false;
 
 // API Keys dan URL
-const API_KEY = "AIzaSyBZ0YW4oYH7WWa75I-ZWfsK7bgfYWhDl-8";
+const API_KEY = "AIzaSyDDd_MnaxL3vELCxXnRdGmeadYFf11uOlY";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 // Load data dari localStorage
@@ -212,3 +212,4 @@ typingForm.addEventListener("submit", (e) => {
     e.preventDefault();
     handleOutgoingChat();
 });
+
